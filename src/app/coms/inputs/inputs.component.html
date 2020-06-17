@@ -1,0 +1,13 @@
+<div class="contanerAll">
+    <input #myInput (input)='inp(myInput)' />
+    <div class="operators">
+        <button #oper1 (click)='col(oper1.innerText)'>+</button>
+        <button #oper2 (click)='col(oper2.innerText)'>-</button>
+        <button #oper3 (click)='col(oper3.innerText)'>/</button>
+        <button #oper4 (click)='col(oper4.innerText)'>*</button>
+    </div>
+</div>
+<li #re>{{resultB}}</li>
+<button id='history' (click)='history()'>H</button>
+<button id='equal' (click)='equal()'>=</button>
+

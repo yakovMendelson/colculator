@@ -1,0 +1,10 @@
+button{
+    margin: 2.5px;
+    background-color: cornflowerblue;
+}
+input{
+    border-color: blueviolet;
+}
+#equal, #history{
+    background-color: darkorange;
+}
