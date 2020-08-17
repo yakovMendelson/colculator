@@ -1,0 +1,8 @@
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+}

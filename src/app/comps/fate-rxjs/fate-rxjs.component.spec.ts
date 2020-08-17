@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputsComponent } from './inputs.component';
+import { FateRxjsComponent } from './fate-rxjs.component';
 
-describe('InputsComponent', () => {
-  let component: InputsComponent;
-  let fixture: ComponentFixture<InputsComponent>;
+describe('FateRxjsComponent', () => {
+  let component: FateRxjsComponent;
+  let fixture: ComponentFixture<FateRxjsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InputsComponent ]
+      declarations: [ FateRxjsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InputsComponent);
+    fixture = TestBed.createComponent(FateRxjsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

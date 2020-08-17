@@ -2,14 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { InputsComponent } from './coms/inputs/inputs.component';
-import { HistorisComponent } from './coms/historis/historis.component';
+
+import { FateComponent } from './comps/fate/fate.component';
+import { FateRxjsComponent } from './comps/fate-rxjs/fate-rxjs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputsComponent,
-    HistorisComponent
+    FateComponent,
+    FateRxjsComponent
   ],
   imports: [
     BrowserModule

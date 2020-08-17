@@ -1,0 +1,11 @@
+<div class="contaner">
+    <div *ngIf='flag' class="details">
+        <button class="btn btn-info" id="left">{{left}}</button>
+        <button class="btn btn-danger" id="right">{{right}}</button>
+    </div>
+    <div class="but">
+        <button class="btn btn-info" (click)='test("left")'>left</button>
+        <button class="btn btn-danger" (click)='test("right")'>right</button>
+    </div>
+    <button class='btn btn-success' (click)='start()'>start</button>
+</div>
